@@ -1,0 +1,14 @@
+#En este ejercicio se aprenden metodos como .append, .pop(Indice), insert(indice, "Objeto"), remplazar indice variable[indice], .remove('valor'),lista[inicio:fin], variable[-1],len(lista)
+#Metodo in y not in
+productos = ["Xbox", "Monitor", "Teclado"]
+productos.append("Mouse")
+print(productos)
+productos.insert(1, "Control")
+print(productos)
+productos.remove('Monitor')
+print(productos)
+producto_eliminado = productos.pop(-1)
+print(producto_eliminado)
+productos[0] = 'PlayStation'
+print(productos)
+print('Teclado' in productos)
