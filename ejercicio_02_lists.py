@@ -12,3 +12,4 @@ print(producto_eliminado)
 productos[0] = 'PlayStation'
 print(productos)
 print('Teclado' in productos)
+#Con este ejercicio ya demostraste manejo básico sólido de listas: acceso por índice, modificación, append(), insert(), remove(), pop(), len(), slicing e in.
