@@ -14,3 +14,5 @@ print(f"Cantidad: {cantidad}")
 print(f"Subtotal: {subtotal}")
 print(f"Descuento: {descuento_aplicado}")
 print(f"Total a pagar: {total}")
+
+#Este ejercicio es para aprender acerca de los tipos STR, INT, FLOAT. Como hacer Input y Print
