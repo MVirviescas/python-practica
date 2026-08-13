@@ -1,4 +1,5 @@
 #and, or, not
+#mi ejercicio
 usuario = {
     "nombre": "Miguel",
     "edad": 22,
@@ -27,3 +28,4 @@ elif usuario["edad"] >= 18:
 
 else:
     print("Acceso denegado")'''
+    
