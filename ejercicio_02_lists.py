@@ -7,7 +7,7 @@ productos.insert(1, "Control")
 print(productos)
 productos.remove('Monitor')
 print(productos)
-producto_eliminado = productos.pop(-1)
+producto_eliminado = productos.pop()
 print(producto_eliminado)
 productos[0] = 'PlayStation'
 print(productos)
