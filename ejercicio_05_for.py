@@ -131,7 +131,24 @@ for numero in range(1, 5):
 print(total)    
 
 #11 Ahora vamos a usar range() junto con índices de una lista:
-productos = ["Xbox", "Monitor", "Mouse"]
+productos = ["Xbox", "Monitor", "Mouse", "Teclado"]
 
 for i in range(len(productos)):
-    print(i, productos[i])
+    print(f"{i}: {productos[i]}")
+    
+#12 Ahora te presento una forma más cómoda de obtener índice y valor al mismo tiempo: enumerate()
+usuarios = ["Laura", "Carlos", "Ana"]
+
+for i, usuario in enumerate(usuarios):
+    print(f"{i}: {usuario}")
+
+#13 Ahora combinemos enumerate() con una lista de diccionarios:
+productos = [
+    {"nombre": "Xbox", "precio": 500},
+    {"nombre": "Monitor", "precio": 250},
+    {"nombre": "Mouse", "precio": 50}
+]
+
+for indice, producto in enumerate(productos):
+    print(f"{indice}: {producto['nombre']} - ${producto['precio']}")
+    
