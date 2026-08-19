@@ -16,7 +16,7 @@ while contador < 3:
 
 print("Terminado")
 
-#3 epetir hasta que el usuario escriba algo válido.
+#3 Repetir hasta que el usuario escriba algo válido.
 opcion = ""
 
 while opcion != "salir":
