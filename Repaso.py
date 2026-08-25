@@ -1,4 +1,4 @@
-#1 Operaciones básicas 
+'''#1 Operaciones básicas 
 a = 15
 b = 4
 
@@ -118,4 +118,36 @@ while numero <= 5:
     numero += 1
     total += numero 
 
-print(total)     
+print(total)'''
+
+'''#15 operadores numericos
+a = 17
+b = 5
+
+print(a / b)  #division normal
+print(a // b) #division y se queda con el cociente entero
+print(a % b) #es lo que sobra al divividir. ej si 17 % 5 > 3 y sobra 2. 2 es el residuo
+print(a ** 2) #representa la potencia. por ej. 3 a la 2 = 3 * 3 = 9 // o 2 a la 3 = 2*2*2 = 8 '''
+# mezcla while, acumulador, estado de variables, continue, break y condiciones.
+numero = 1
+total = 0
+
+while numero <= 6:
+
+    if numero == 3:
+        numero = numero + 1
+        print(numero)
+        print(total)
+        continue
+
+    total = total + numero
+
+    if total >= 8:
+        print(numero)
+        print(total)
+        break
+
+    numero = numero + 1
+
+print("Numero:", numero)
+print("Total:", total)
